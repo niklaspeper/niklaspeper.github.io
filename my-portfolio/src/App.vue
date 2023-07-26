@@ -23,9 +23,15 @@ export default {
   font-weight: 500;
 }
 
+@font-face {
+  font-family: $nunito_sans_reg;
+  src: url('@/assets/fonts/NunitoSans_10pt-Regular.ttf');
+  font-weight: 500;
+}
+
 body,
 html {
-  font-family: $nunito;
+  font-family: $nunito_sans_reg;
   background-color: $color_bg;
   font-size: 10px;
   width: 100%;
