@@ -25,7 +25,7 @@ export default {
     max-width: 40rem;
 
     p {
-        font-size: 1.5rem;
+        font-size: $size_paragraph;
         padding: 0;
         margin: 0;
 
@@ -35,7 +35,7 @@ export default {
 
         &.content {
             margin: 0 0 2rem 0;
-            line-height: 2rem;
+            line-height: $lineheight_paragraph;
             color: grey;
         }
     }

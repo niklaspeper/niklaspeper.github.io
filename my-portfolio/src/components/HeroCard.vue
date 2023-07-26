@@ -19,7 +19,13 @@ export default {
 <style lang="scss" scoped>
 .hero-card {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-direction: row;
+    margin-top: 20rem;
+    padding: $def_padding;
+
+    @media screen and (max-width: 600px) {
+        flex-direction: column;
+    }
 }
 </style>

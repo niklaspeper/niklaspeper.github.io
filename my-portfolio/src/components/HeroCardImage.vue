@@ -19,5 +19,9 @@ $size: 20rem;
     img {
         width: $size;
     }
+
+    @media screen and (max-width: 600px) {
+        // margin: 0 0 0 10rem
+    }
 }
 </style>
